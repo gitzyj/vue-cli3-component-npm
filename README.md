@@ -24,7 +24,7 @@ npm run lib
 npm i nrm -g   //一定要全局安装 npm管理工具
 nrm add xxx .   http:xxxxx .   添加源地址
 nrm  ls  展开源目录 
-nrm use qmnpm 使用源切换仓储
+nrm use xxx 使用源切换仓储
 nrm  del  xxxx  删除镜像地址
 
 我们发布到 npm 中，只有编译后的 lib 目录、package.json、README.md才是需要被发布的。所以我们需要设置忽略目录和文件
