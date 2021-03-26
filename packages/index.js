@@ -16,6 +16,11 @@ const install = function(Vue) {
 if (typeof window !== "undefined" && window.Vue) {
   install(window.Vue);
 }
+// export 可以导出多个组件
+export {
+  demoComponent
+}
+//  export default 导出一个
 export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
